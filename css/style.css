@@ -1,0 +1,162 @@
+.bg-gradient.bg-secondary-2 {
+	background-image: -moz-linear-gradient(-39deg, #6d0eb1 59%, #080ab4 100%);
+	background-image: -webkit-linear-gradient(-39deg, #6d0eb1 59%, #080ab4 100%);
+	background-image: linear-gradient(135deg, #6d0eb1 59%, #080ab4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0eb1', endColorstr='#080ab4', GradientType=1);
+}
+
+a:focus,
+button:focus {
+	outline: none !important;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+blockquote {
+	padding: 0;
+	margin: 0;
+}
+
+input,
+button,
+select,
+textarea {
+	outline: none;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li,
+ol li {
+	display: block;
+}
+
+dl {
+	margin: 0;
+}
+
+dt,
+dd {
+	line-height: inherit;
+}
+
+dt {
+	font-weight: inherit;
+}
+
+dd {
+	margin-bottom: 0;
+}
+
+cite {
+	font-style: normal;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+blockquote {
+	padding-left: 0;
+	border-left: 0;
+}
+
+address {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+figure {
+	margin-bottom: 0;
+}
+
+html p a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #838386;
+	background-color: #ffffff;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 16px;
+		line-height: 1.55556;
+	}
+}
+
+@media (min-width: 1600px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+a {
+	color: #ffa900;
+	text-decoration: none;
+	transition: .25s;
+}
+
+a:hover, a:focus {
+	color: #b37600;
+	text-decoration: underline;
+	outline: none;
+}
+
+a[href*='callto'], a[href*='mailto'] {
+	white-space: nowrap;
+}
+
+.privacy-link {
+	display: inline-block;
+}
+
+.link-hover {
+	color: #b37600;
+}
+
+.link-press {
+	color: #b37600;
+}
+
+.hidden {
+	display: none;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+hr {
+	border-color: #dfe1ea;
+	margin-bottom: 0;
+}
+
